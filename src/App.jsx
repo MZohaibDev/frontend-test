@@ -1,0 +1,13 @@
+import React from "react";
+import "./App.css";
+import { Carousel } from "./Components/Carousel/Carousel.jsx";
+
+function App() {
+  return (
+    <>
+      <Carousel />
+    </>
+  );
+}
+
+export default App;

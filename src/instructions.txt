@@ -1,0 +1,21 @@
+
+-> Task 1 
+
+Add Auto-Slide Feature with Click Navigation
+Enhance the Carousel component by implementing an auto-slide feature that automatically 
+transitions to the next image every 1 second. 
+The transition should be smooth and continuous while looping back to the first image after reaching the last one.
+In addition to the automatic sliding, the carousel should also allow manual navigation — 
+meaning the user can click on navigation dots (or any other clickable element) to jump to a specific slide at any time.
+When a user manually changes the slide, the auto-slide interval should continue running normally without interruption 
+or restarting the timer.
+
+
+-> Task 2
+
+Add Start and Stop buttons in the parent component of the carousel.
+These buttons should allow the parent to control the slideshow 
+for example,
+clicking Start should begin the automatic image rotation, and clicking Stop should pause it.
+The goal is to ensure that the carousel’s playback behavior can be managed EXTERNALLY 
+rather than only within the component itself.
